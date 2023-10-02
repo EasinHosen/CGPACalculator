@@ -74,8 +74,9 @@
             txtTOCG = new TextBox();
             txtOSLG = new TextBox();
             txtOOPG = new TextBox();
-            txtCGPA = new TextBox();
-            button1 = new Button();
+            txtGPA = new TextBox();
+            btnCalculate = new Button();
+            btnClr = new Button();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
@@ -501,40 +502,53 @@
             txtOOPG.Size = new Size(81, 23);
             txtOOPG.TabIndex = 5;
             // 
-            // txtCGPA
+            // txtGPA
             // 
-            txtCGPA.Enabled = false;
-            txtCGPA.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            txtCGPA.Location = new Point(784, 378);
-            txtCGPA.Name = "txtCGPA";
-            txtCGPA.Size = new Size(95, 29);
-            txtCGPA.TabIndex = 5;
+            txtGPA.Enabled = false;
+            txtGPA.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            txtGPA.Location = new Point(784, 378);
+            txtGPA.Name = "txtGPA";
+            txtGPA.Size = new Size(95, 29);
+            txtGPA.TabIndex = 5;
             // 
-            // button1
+            // btnCalculate
             // 
-            button1.BackColor = Color.LawnGreen;
-            button1.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
-            button1.Location = new Point(372, 597);
-            button1.Name = "button1";
-            button1.Size = new Size(218, 40);
-            button1.TabIndex = 6;
-            button1.Text = "Calculate CGPA";
-            button1.UseVisualStyleBackColor = false;
-            button1.Click += button1_Click;
+            btnCalculate.BackColor = Color.LawnGreen;
+            btnCalculate.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
+            btnCalculate.Location = new Point(372, 597);
+            btnCalculate.Name = "btnCalculate";
+            btnCalculate.Size = new Size(218, 40);
+            btnCalculate.TabIndex = 6;
+            btnCalculate.Text = "Calculate CGPA";
+            btnCalculate.UseVisualStyleBackColor = false;
+            btnCalculate.Click += button1_Click;
+            // 
+            // btnClr
+            // 
+            btnClr.BackColor = Color.White;
+            btnClr.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
+            btnClr.Location = new Point(784, 597);
+            btnClr.Name = "btnClr";
+            btnClr.Size = new Size(81, 40);
+            btnClr.TabIndex = 6;
+            btnClr.Text = "Clear";
+            btnClr.UseVisualStyleBackColor = false;
+            btnClr.Click += button2_Click;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(891, 649);
-            Controls.Add(button1);
+            Controls.Add(btnClr);
+            Controls.Add(btnCalculate);
             Controls.Add(txtOOPG);
             Controls.Add(txtOOP);
             Controls.Add(txtOSLG);
             Controls.Add(txtOSL);
             Controls.Add(txtTOCG);
             Controls.Add(txtTOC);
-            Controls.Add(txtCGPA);
+            Controls.Add(txtGPA);
             Controls.Add(txtNALG);
             Controls.Add(txtADBLG);
             Controls.Add(txtNAL);
@@ -630,7 +644,8 @@
         private TextBox txtTOCG;
         private TextBox txtOSLG;
         private TextBox txtOOPG;
-        private TextBox txtCGPA;
-        private Button button1;
+        private TextBox txtGPA;
+        private Button btnCalculate;
+        private Button btnClr;
     }
 }
