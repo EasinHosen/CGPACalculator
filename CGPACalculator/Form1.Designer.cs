@@ -77,6 +77,16 @@
             txtGPA = new TextBox();
             btnCalculate = new Button();
             btnClr = new Button();
+            label28 = new Label();
+            txtSPGL = new TextBox();
+            txtDTGL = new TextBox();
+            txtOSGL = new TextBox();
+            txtADBGL = new TextBox();
+            txtADBLGL = new TextBox();
+            txtNALGL = new TextBox();
+            txtTOCGL = new TextBox();
+            txtOSLGL = new TextBox();
+            txtOOPGL = new TextBox();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
@@ -141,7 +151,7 @@
             // 
             label6.AutoSize = true;
             label6.Font = new Font("Segoe UI Semibold", 15.75F, FontStyle.Bold, GraphicsUnit.Point);
-            label6.Location = new Point(411, 227);
+            label6.Location = new Point(377, 227);
             label6.Name = "label6";
             label6.Size = new Size(71, 30);
             label6.TabIndex = 2;
@@ -151,7 +161,7 @@
             // 
             label7.AutoSize = true;
             label7.Font = new Font("Segoe UI Semibold", 15.75F, FontStyle.Bold, GraphicsUnit.Point);
-            label7.Location = new Point(528, 227);
+            label7.Location = new Point(475, 227);
             label7.Name = "label7";
             label7.Size = new Size(71, 30);
             label7.TabIndex = 2;
@@ -171,17 +181,17 @@
             // 
             label8.AutoSize = true;
             label8.Font = new Font("Segoe UI Semibold", 15.75F, FontStyle.Bold, GraphicsUnit.Point);
-            label8.Location = new Point(646, 227);
+            label8.Location = new Point(571, 227);
             label8.Name = "label8";
-            label8.Size = new Size(71, 30);
+            label8.Size = new Size(126, 30);
             label8.TabIndex = 2;
-            label8.Text = "Grade";
+            label8.Text = "Grade Point";
             // 
             // label9
             // 
             label9.AutoSize = true;
             label9.Font = new Font("Segoe UI Semibold", 15.75F, FontStyle.Bold, GraphicsUnit.Point);
-            label9.Location = new Point(800, 227);
+            label9.Location = new Point(842, 227);
             label9.Name = "label9";
             label9.Size = new Size(53, 30);
             label9.TabIndex = 2;
@@ -281,7 +291,7 @@
             // 
             label19.AutoSize = true;
             label19.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            label19.Location = new Point(547, 274);
+            label19.Location = new Point(494, 274);
             label19.Name = "label19";
             label19.Size = new Size(32, 21);
             label19.TabIndex = 4;
@@ -291,7 +301,7 @@
             // 
             label20.AutoSize = true;
             label20.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            label20.Location = new Point(547, 309);
+            label20.Location = new Point(494, 309);
             label20.Name = "label20";
             label20.Size = new Size(32, 21);
             label20.TabIndex = 4;
@@ -301,7 +311,7 @@
             // 
             label21.AutoSize = true;
             label21.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            label21.Location = new Point(547, 380);
+            label21.Location = new Point(494, 380);
             label21.Name = "label21";
             label21.Size = new Size(32, 21);
             label21.TabIndex = 4;
@@ -311,7 +321,7 @@
             // 
             label22.AutoSize = true;
             label22.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            label22.Location = new Point(547, 344);
+            label22.Location = new Point(494, 344);
             label22.Name = "label22";
             label22.Size = new Size(32, 21);
             label22.TabIndex = 4;
@@ -321,7 +331,7 @@
             // 
             label23.AutoSize = true;
             label23.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            label23.Location = new Point(547, 415);
+            label23.Location = new Point(494, 415);
             label23.Name = "label23";
             label23.Size = new Size(29, 21);
             label23.TabIndex = 4;
@@ -331,7 +341,7 @@
             // 
             label24.AutoSize = true;
             label24.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            label24.Location = new Point(547, 450);
+            label24.Location = new Point(494, 450);
             label24.Name = "label24";
             label24.Size = new Size(32, 21);
             label24.TabIndex = 4;
@@ -341,7 +351,7 @@
             // 
             label25.AutoSize = true;
             label25.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            label25.Location = new Point(547, 481);
+            label25.Location = new Point(494, 481);
             label25.Name = "label25";
             label25.Size = new Size(29, 21);
             label25.TabIndex = 4;
@@ -351,7 +361,7 @@
             // 
             label26.AutoSize = true;
             label26.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            label26.Location = new Point(547, 512);
+            label26.Location = new Point(494, 512);
             label26.Name = "label26";
             label26.Size = new Size(29, 21);
             label26.TabIndex = 4;
@@ -361,7 +371,7 @@
             // 
             label27.AutoSize = true;
             label27.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            label27.Location = new Point(547, 543);
+            label27.Location = new Point(494, 543);
             label27.Name = "label27";
             label27.Size = new Size(29, 21);
             label27.TabIndex = 4;
@@ -369,63 +379,63 @@
             // 
             // txtSP
             // 
-            txtSP.Location = new Point(411, 272);
+            txtSP.Location = new Point(377, 272);
             txtSP.Name = "txtSP";
             txtSP.Size = new Size(81, 23);
             txtSP.TabIndex = 5;
             // 
             // txtDT
             // 
-            txtDT.Location = new Point(411, 342);
+            txtDT.Location = new Point(377, 342);
             txtDT.Name = "txtDT";
             txtDT.Size = new Size(81, 23);
             txtDT.TabIndex = 5;
             // 
             // txtTOC
             // 
-            txtTOC.Location = new Point(411, 307);
+            txtTOC.Location = new Point(377, 307);
             txtTOC.Name = "txtTOC";
             txtTOC.Size = new Size(81, 23);
             txtTOC.TabIndex = 5;
             // 
             // txtOS
             // 
-            txtOS.Location = new Point(411, 378);
+            txtOS.Location = new Point(377, 378);
             txtOS.Name = "txtOS";
             txtOS.Size = new Size(81, 23);
             txtOS.TabIndex = 5;
             // 
             // txtADB
             // 
-            txtADB.Location = new Point(411, 450);
+            txtADB.Location = new Point(377, 450);
             txtADB.Name = "txtADB";
             txtADB.Size = new Size(81, 23);
             txtADB.TabIndex = 5;
             // 
             // txtOSL
             // 
-            txtOSL.Location = new Point(411, 413);
+            txtOSL.Location = new Point(377, 413);
             txtOSL.Name = "txtOSL";
             txtOSL.Size = new Size(81, 23);
             txtOSL.TabIndex = 5;
             // 
             // txtADBL
             // 
-            txtADBL.Location = new Point(411, 481);
+            txtADBL.Location = new Point(377, 481);
             txtADBL.Name = "txtADBL";
             txtADBL.Size = new Size(81, 23);
             txtADBL.TabIndex = 5;
             // 
             // txtNAL
             // 
-            txtNAL.Location = new Point(411, 545);
+            txtNAL.Location = new Point(377, 545);
             txtNAL.Name = "txtNAL";
             txtNAL.Size = new Size(81, 23);
             txtNAL.TabIndex = 5;
             // 
             // txtOOP
             // 
-            txtOOP.Location = new Point(411, 514);
+            txtOOP.Location = new Point(377, 514);
             txtOOP.Name = "txtOOP";
             txtOOP.Size = new Size(81, 23);
             txtOOP.TabIndex = 5;
@@ -433,7 +443,7 @@
             // txtSPG
             // 
             txtSPG.Enabled = false;
-            txtSPG.Location = new Point(646, 272);
+            txtSPG.Location = new Point(591, 272);
             txtSPG.Name = "txtSPG";
             txtSPG.Size = new Size(81, 23);
             txtSPG.TabIndex = 5;
@@ -441,7 +451,7 @@
             // txtDTG
             // 
             txtDTG.Enabled = false;
-            txtDTG.Location = new Point(646, 342);
+            txtDTG.Location = new Point(591, 342);
             txtDTG.Name = "txtDTG";
             txtDTG.Size = new Size(81, 23);
             txtDTG.TabIndex = 5;
@@ -449,7 +459,7 @@
             // txtOSG
             // 
             txtOSG.Enabled = false;
-            txtOSG.Location = new Point(646, 378);
+            txtOSG.Location = new Point(591, 378);
             txtOSG.Name = "txtOSG";
             txtOSG.Size = new Size(81, 23);
             txtOSG.TabIndex = 5;
@@ -457,7 +467,7 @@
             // txtADBG
             // 
             txtADBG.Enabled = false;
-            txtADBG.Location = new Point(646, 450);
+            txtADBG.Location = new Point(591, 450);
             txtADBG.Name = "txtADBG";
             txtADBG.Size = new Size(81, 23);
             txtADBG.TabIndex = 5;
@@ -465,7 +475,7 @@
             // txtADBLG
             // 
             txtADBLG.Enabled = false;
-            txtADBLG.Location = new Point(646, 481);
+            txtADBLG.Location = new Point(591, 481);
             txtADBLG.Name = "txtADBLG";
             txtADBLG.Size = new Size(81, 23);
             txtADBLG.TabIndex = 5;
@@ -473,7 +483,7 @@
             // txtNALG
             // 
             txtNALG.Enabled = false;
-            txtNALG.Location = new Point(646, 545);
+            txtNALG.Location = new Point(591, 545);
             txtNALG.Name = "txtNALG";
             txtNALG.Size = new Size(81, 23);
             txtNALG.TabIndex = 5;
@@ -481,7 +491,7 @@
             // txtTOCG
             // 
             txtTOCG.Enabled = false;
-            txtTOCG.Location = new Point(646, 307);
+            txtTOCG.Location = new Point(591, 307);
             txtTOCG.Name = "txtTOCG";
             txtTOCG.Size = new Size(81, 23);
             txtTOCG.TabIndex = 5;
@@ -489,7 +499,7 @@
             // txtOSLG
             // 
             txtOSLG.Enabled = false;
-            txtOSLG.Location = new Point(646, 413);
+            txtOSLG.Location = new Point(591, 413);
             txtOSLG.Name = "txtOSLG";
             txtOSLG.Size = new Size(81, 23);
             txtOSLG.TabIndex = 5;
@@ -497,7 +507,7 @@
             // txtOOPG
             // 
             txtOOPG.Enabled = false;
-            txtOOPG.Location = new Point(646, 514);
+            txtOOPG.Location = new Point(591, 514);
             txtOOPG.Name = "txtOOPG";
             txtOOPG.Size = new Size(81, 23);
             txtOOPG.TabIndex = 5;
@@ -506,7 +516,7 @@
             // 
             txtGPA.Enabled = false;
             txtGPA.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            txtGPA.Location = new Point(784, 378);
+            txtGPA.Location = new Point(826, 378);
             txtGPA.Name = "txtGPA";
             txtGPA.Size = new Size(95, 29);
             txtGPA.TabIndex = 5;
@@ -515,7 +525,7 @@
             // 
             btnCalculate.BackColor = Color.LawnGreen;
             btnCalculate.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
-            btnCalculate.Location = new Point(372, 597);
+            btnCalculate.Location = new Point(338, 597);
             btnCalculate.Name = "btnCalculate";
             btnCalculate.Size = new Size(218, 40);
             btnCalculate.TabIndex = 6;
@@ -527,7 +537,7 @@
             // 
             btnClr.BackColor = Color.White;
             btnClr.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
-            btnClr.Location = new Point(784, 597);
+            btnClr.Location = new Point(826, 597);
             btnClr.Name = "btnClr";
             btnClr.Size = new Size(81, 40);
             btnClr.TabIndex = 6;
@@ -535,28 +545,119 @@
             btnClr.UseVisualStyleBackColor = false;
             btnClr.Click += button2_Click;
             // 
+            // label28
+            // 
+            label28.AutoSize = true;
+            label28.Font = new Font("Segoe UI Semibold", 15.75F, FontStyle.Bold, GraphicsUnit.Point);
+            label28.Location = new Point(703, 227);
+            label28.Name = "label28";
+            label28.Size = new Size(133, 30);
+            label28.TabIndex = 2;
+            label28.Text = "Letter Grade";
+            // 
+            // txtSPGL
+            // 
+            txtSPGL.Enabled = false;
+            txtSPGL.Location = new Point(722, 272);
+            txtSPGL.Name = "txtSPGL";
+            txtSPGL.Size = new Size(81, 23);
+            txtSPGL.TabIndex = 5;
+            // 
+            // txtDTGL
+            // 
+            txtDTGL.Enabled = false;
+            txtDTGL.Location = new Point(722, 342);
+            txtDTGL.Name = "txtDTGL";
+            txtDTGL.Size = new Size(81, 23);
+            txtDTGL.TabIndex = 5;
+            // 
+            // txtOSGL
+            // 
+            txtOSGL.Enabled = false;
+            txtOSGL.Location = new Point(722, 378);
+            txtOSGL.Name = "txtOSGL";
+            txtOSGL.Size = new Size(81, 23);
+            txtOSGL.TabIndex = 5;
+            // 
+            // txtADBGL
+            // 
+            txtADBGL.Enabled = false;
+            txtADBGL.Location = new Point(722, 450);
+            txtADBGL.Name = "txtADBGL";
+            txtADBGL.Size = new Size(81, 23);
+            txtADBGL.TabIndex = 5;
+            // 
+            // txtADBLGL
+            // 
+            txtADBLGL.Enabled = false;
+            txtADBLGL.Location = new Point(722, 481);
+            txtADBLGL.Name = "txtADBLGL";
+            txtADBLGL.Size = new Size(81, 23);
+            txtADBLGL.TabIndex = 5;
+            // 
+            // txtNALGL
+            // 
+            txtNALGL.Enabled = false;
+            txtNALGL.Location = new Point(722, 545);
+            txtNALGL.Name = "txtNALGL";
+            txtNALGL.Size = new Size(81, 23);
+            txtNALGL.TabIndex = 5;
+            // 
+            // txtTOCGL
+            // 
+            txtTOCGL.Enabled = false;
+            txtTOCGL.Location = new Point(722, 307);
+            txtTOCGL.Name = "txtTOCGL";
+            txtTOCGL.Size = new Size(81, 23);
+            txtTOCGL.TabIndex = 5;
+            // 
+            // txtOSLGL
+            // 
+            txtOSLGL.Enabled = false;
+            txtOSLGL.Location = new Point(722, 413);
+            txtOSLGL.Name = "txtOSLGL";
+            txtOSLGL.Size = new Size(81, 23);
+            txtOSLGL.TabIndex = 5;
+            // 
+            // txtOOPGL
+            // 
+            txtOOPGL.Enabled = false;
+            txtOOPGL.Location = new Point(722, 514);
+            txtOOPGL.Name = "txtOOPGL";
+            txtOOPGL.Size = new Size(81, 23);
+            txtOOPGL.TabIndex = 5;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(891, 649);
+            ClientSize = new Size(927, 649);
             Controls.Add(btnClr);
             Controls.Add(btnCalculate);
+            Controls.Add(txtOOPGL);
             Controls.Add(txtOOPG);
             Controls.Add(txtOOP);
+            Controls.Add(txtOSLGL);
             Controls.Add(txtOSLG);
             Controls.Add(txtOSL);
+            Controls.Add(txtTOCGL);
             Controls.Add(txtTOCG);
             Controls.Add(txtTOC);
             Controls.Add(txtGPA);
+            Controls.Add(txtNALGL);
+            Controls.Add(txtADBLGL);
             Controls.Add(txtNALG);
             Controls.Add(txtADBLG);
+            Controls.Add(txtADBGL);
             Controls.Add(txtNAL);
             Controls.Add(txtADBG);
+            Controls.Add(txtOSGL);
             Controls.Add(txtADBL);
             Controls.Add(txtOSG);
+            Controls.Add(txtDTGL);
             Controls.Add(txtADB);
             Controls.Add(txtDTG);
+            Controls.Add(txtSPGL);
             Controls.Add(txtOS);
             Controls.Add(txtSPG);
             Controls.Add(txtDT);
@@ -580,6 +681,7 @@
             Controls.Add(label19);
             Controls.Add(label10);
             Controls.Add(pictureBox1);
+            Controls.Add(label28);
             Controls.Add(label9);
             Controls.Add(label8);
             Controls.Add(label7);
@@ -647,5 +749,15 @@
         private TextBox txtGPA;
         private Button btnCalculate;
         private Button btnClr;
+        private Label label28;
+        private TextBox txtSPGL;
+        private TextBox txtDTGL;
+        private TextBox txtOSGL;
+        private TextBox txtADBGL;
+        private TextBox txtADBLGL;
+        private TextBox txtNALGL;
+        private TextBox txtTOCGL;
+        private TextBox txtOSLGL;
+        private TextBox txtOOPGL;
     }
 }
