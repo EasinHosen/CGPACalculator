@@ -48,6 +48,51 @@ namespace CGPACalculator.Helpers
 
             return gpa;
         }
+
+        public static String getLetterGrade(double gradePoint) {
+            String letter = "F";
+            if (gradePoint == 4.0)
+            {
+                letter = "A+";
+            }
+            else if (gradePoint == 3.75)
+            {
+                letter = "A";
+            }
+            else if (gradePoint == 3.5)
+            {
+                letter = "A-";
+            }
+            else if (gradePoint == 3.25)
+            {
+                letter = "B+";
+            }
+            else if (gradePoint == 3.0)
+            {
+                letter = "B";
+            }
+            else if (gradePoint == 2.75)
+            {
+                letter = "B-";
+            }
+            else if (gradePoint == 2.5)
+            {
+                letter = "C+";
+            }
+            else if (gradePoint == 2.25)
+            {
+                letter = "C";
+            }
+            else if (gradePoint == 2.0)
+            {
+                letter = "D";
+            }
+            else {
+                letter = "F";
+            }
+            return letter;  
+        
+        }
     }
 
     

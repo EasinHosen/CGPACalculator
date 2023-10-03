@@ -58,8 +58,25 @@ namespace CGPACalculator
                         txtGPA.Text = GlobalHelpers.getGpa(gradePoints3y1s).ToString();
 
                     }
+                    txtSPG.Text = gradePoints3y1s[0].ToString();
+                    txtTOCG.Text = gradePoints3y1s[1].ToString();
+                    txtDTG.Text = gradePoints3y1s[2].ToString();
+                    txtOSG.Text = gradePoints3y1s[3].ToString();
+                    txtOSLG.Text = gradePoints3y1s[4].ToString();
+                    txtADBG.Text = gradePoints3y1s[5].ToString();
+                    txtADBLG.Text = gradePoints3y1s[6].ToString();
+                    txtOOPG.Text = gradePoints3y1s[7].ToString();
+                    txtNALG.Text = gradePoints3y1s[8].ToString();
 
-
+                    txtSPGL.Text = GlobalHelpers.getLetterGrade(gradePoints3y1s[0]);
+                    txtTOCGL.Text = GlobalHelpers.getLetterGrade(gradePoints3y1s[1]);
+                    txtDTGL.Text = GlobalHelpers.getLetterGrade(gradePoints3y1s[2]);
+                    txtOSGL.Text = GlobalHelpers.getLetterGrade(gradePoints3y1s[3]);
+                    txtOSLGL.Text = GlobalHelpers.getLetterGrade(gradePoints3y1s[4]);
+                    txtADBGL.Text = GlobalHelpers.getLetterGrade(gradePoints3y1s[5]);
+                    txtADBLGL.Text = GlobalHelpers.getLetterGrade(gradePoints3y1s[6]);
+                    txtOOPGL.Text = GlobalHelpers.getLetterGrade(gradePoints3y1s[7]);
+                    txtNALGL.Text = GlobalHelpers.getLetterGrade(gradePoints3y1s[8]);
                 }
 
             }
@@ -81,7 +98,28 @@ namespace CGPACalculator
             txtADBL.Clear();
             txtOOP.Clear();
             txtNAL.Clear();
+
             txtGPA.Clear();
+            
+            txtSPG.Clear();
+            txtTOCG.Clear();
+            txtDTG.Clear();
+            txtOSG.Clear();
+            txtOSLG.Clear();
+            txtADBG.Clear();
+            txtADBLG.Clear();
+            txtOOPG.Clear();
+            txtNALG.Clear();
+            
+            txtSPGL.Clear();
+            txtTOCGL.Clear();
+            txtDTGL.Clear();
+            txtOSGL.Clear();
+            txtOSLGL.Clear();
+            txtADBGL.Clear();
+            txtADBLGL.Clear();
+            txtOOPGL.Clear();
+            txtNALGL.Clear();
         }
 
     }
