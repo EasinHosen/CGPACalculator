@@ -55,7 +55,7 @@ namespace CGPACalculator
                     }
                     else
                     {
-                        txtGPA.Text = GlobalHelpers.getGpa(gradePoints3y1s).ToString();
+                        txtGPA.Text = GlobalHelpers.getGpa(gradePoints3y1s).ToString("F2");
 
                     }
                     txtSPG.Text = gradePoints3y1s[0].ToString();
